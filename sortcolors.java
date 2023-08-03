@@ -4,7 +4,7 @@ public class sortcolors {
      * Time complexitiy : O(n*n)
      * Space complexitiy:O(1)
      */
-    public void sortColors(int[] nums) {
+    public void sortColors1(int[] nums) {
         for(int i=0;i<nums.length;i++){
             for(int j=i+1;j<nums.length;j++){
                 if(nums[i]>nums[j]){

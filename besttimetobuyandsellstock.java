@@ -26,7 +26,7 @@ public class besttimetobuyandsellstock {
     /*
      * Updated solution 
      */
-    public int maxProfit(int[] prices) {
+    public int maxProfit1(int[] prices) {
         int min=Integer.MAX_VALUE, profit=0;
         for(int i=1;i<prices.length;i++){
             if(prices[i]<min){
