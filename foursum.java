@@ -19,7 +19,6 @@ public class foursum {
                     sum+=nums[high];
                     sum+=nums[i];
                     sum+=nums[j];
-                    //System.out.print(sum);
                     if(sum==target){
                         s.add(Arrays.asList(nums[i], nums[j], nums[low],nums[high]));
                         low++;
@@ -29,8 +28,7 @@ public class foursum {
                         low++;
                     }
                     else{
-                        high--;
-                        
+                        high--; 
                     }
                 }
                 j++;
