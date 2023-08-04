@@ -4,6 +4,9 @@
  * Space complexity:O(n)
  *
  */
+
+import java.util.HashMap;
+
 public class Twosum {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer,Integer> arr=new HashMap<>();
