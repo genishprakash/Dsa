@@ -1,3 +1,4 @@
+package Array;
 public class majorityelement {
     public int majorityElement(int[] nums) {
         int count=0,maximumoccurence=nums[0];

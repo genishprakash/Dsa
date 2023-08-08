@@ -1,3 +1,4 @@
+package Array;
 public class containerwithmmostwater {
     // Two pointer approach
     public int min(int x,int y){

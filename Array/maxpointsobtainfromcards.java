@@ -1,3 +1,4 @@
+package Array;
 public class maxpointsobtainfromcards{
     public int maxScore(int[] cardPoints, int k) {
         int max=0,sum=0;

@@ -3,6 +3,7 @@
    Time complexity:O(n)
    Space complextity:O(1)
 */
+package Array;
 public class Movezeroes {
     public void moveZeroes(int[] nums) {
         int count=0,dest=0;

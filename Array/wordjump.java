@@ -1,3 +1,4 @@
+package Array;
 public class wordjump {
     public boolean canJump(int[] nums) {
         int reachable=0;

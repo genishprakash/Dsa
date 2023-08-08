@@ -1,3 +1,4 @@
+package Array;
 /*
  * This solution is done using Hashmap
  * Time complextiy:O(nlogn)

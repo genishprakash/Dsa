@@ -1,3 +1,4 @@
+package Array;
 public class mergesortedarray {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         for(int i=(nums1.length)-1;i>=0;i--){

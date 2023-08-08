@@ -1,3 +1,4 @@
+package Array;
 public class removeduplicatedfromsortedarray {
     public int removeDuplicates(int[] nums) {
         int count =1;

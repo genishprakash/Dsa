@@ -1,3 +1,4 @@
+package Array;
 public class findduplicatenumber{
     public int findduplicate(int[] nums) {
         int slow = 0;

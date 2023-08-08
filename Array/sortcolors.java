@@ -1,3 +1,4 @@
+package Array;
 public class sortcolors {
     /*
      * The first solution is selection sort

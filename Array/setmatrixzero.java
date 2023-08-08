@@ -4,6 +4,7 @@ Language:Java
 Time complexity=O(n*m)
 Space compexity=O(m+n)
 */
+package Array;
 class setmatrixzero {
     public void setZeroes(int[][] matrix) {
         int row[]=new int[matrix.length];

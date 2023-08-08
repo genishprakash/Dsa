@@ -1,3 +1,4 @@
+package Array;
 public class wordsearch {
     public boolean dfs(char[][] board,int i,int j,String word, int pos){
         if(i<0 || j<0 || i>board.length-1 || j>board[i].length-1){
