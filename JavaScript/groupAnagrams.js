@@ -75,9 +75,8 @@ var groupAnagrams = function(strs) {
         else{
             obj[sortedString]=index
             res[index]=[string]
-            index++;
-        }
-
+            index++;            
+        }        
     }
     return res
 };
